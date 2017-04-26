@@ -1,6 +1,6 @@
 # npmtest-ember-wormhole
 
-#### test coverage for  [ember-wormhole (v0.5.1)](https://github.com/yapplabs/ember-wormhole#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-wormhole.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-wormhole) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-wormhole.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-wormhole)
+#### basic test coverage for  [ember-wormhole (v0.5.1)](https://github.com/yapplabs/ember-wormhole#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-wormhole.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-wormhole) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-wormhole.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-wormhole)
 
 #### Render a child view somewhere else in the DOM.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-wormhole/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-wormhole/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-wormhole/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-wormhole/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-wormhole/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-wormhole/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-wormhole/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-wormhole/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-wormhole/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-wormhole/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-wormhole/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-wormhole/build/coverage.html/index.html)
 
@@ -113,7 +113,8 @@
         "start": "ember server",
         "test": "ember test"
     },
-    "version": "0.5.1"
+    "version": "0.5.1",
+    "bin": {}
 }
 ```
 
